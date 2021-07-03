@@ -62,9 +62,9 @@ var text = document.querySelector('.all-projects');
 
 knowMore.addEventListener('click', (e)=>{
   text.classList.toggle('showMore');
-  if(knowMore.innerText === 'Know More'){
-    knowMore.innerText = 'Know Less';
+  if(knowMore.innerText === 'View More'){
+    knowMore.innerText = 'View Less';
   }else{
-    knowMore.innerText = 'Know More';
+    knowMore.innerText = 'View More';
   }
 });
